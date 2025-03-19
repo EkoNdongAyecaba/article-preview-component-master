@@ -1,0 +1,6 @@
+@use "./functions";
+
+$fs-400: functions.rem(13);
+$fs-500: functions.rem(13) * 1.25;
+$fs-700: functions.rem(13) * 2;
+$ff-sans: "Manrope", sans-serif;
