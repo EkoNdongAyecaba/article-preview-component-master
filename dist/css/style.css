@@ -176,6 +176,10 @@ h3 {
   display: none;
 }
 
+.article__footer-active {
+  display: none;
+}
+
 .article .card {
   display: flex;
   flex-direction: column;
