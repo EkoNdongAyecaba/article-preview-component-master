@@ -20,4 +20,8 @@
     font-size: typography.$fs-500;
     color: colors.$clr-Desaturated-Dark-Blue;
   }
+
+  &__footer {
+    display: flex;
+  }
 }

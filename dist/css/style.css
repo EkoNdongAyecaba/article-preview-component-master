@@ -192,5 +192,8 @@ h3 {
   font-size: 1.015625rem;
   color: hsl(214, 17%, 51%);
 }
+.article__footer {
+  display: flex;
+}
 
 /*# sourceMappingURL=style.css.map */
