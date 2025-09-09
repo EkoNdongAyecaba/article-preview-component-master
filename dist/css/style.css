@@ -203,8 +203,8 @@ h3 {
 }
 
 .footer {
-  padding: 20px;
-  justify-content: space-between;
+  padding: 1.25rem;
+  gap: 1.25rem;
 }
 .footer__avatar {
   border-radius: 50%;
@@ -218,6 +218,13 @@ h3 {
 .footer__text b {
   font-size: 1.015625rem;
   color: hsl(217, 19%, 35%);
+}
+.footer button {
+  margin-left: auto;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: none;
 }
 
 /*# sourceMappingURL=style.css.map */

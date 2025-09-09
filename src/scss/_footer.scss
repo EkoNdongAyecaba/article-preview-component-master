@@ -3,8 +3,8 @@
 @use "./colors";
 
 .footer {
-  padding: 20px;
-  justify-content: space-between;
+  padding: functions.rem(20);
+  gap: functions.rem(20);
   &__avatar {
     border-radius: 50%;
     $avatar-size: 50;
@@ -19,5 +19,14 @@
       font-size: typography.$fs-500;
       color: colors.$clr-Very-Dark-Grayish-Blue;
     }
+  }
+
+  button {
+    margin-left: auto;
+    border-radius: 50%;
+    $share-size: 40;
+    width: functions.rem($share-size);
+    height: functions.rem($share-size);
+    border: none;
   }
 }
