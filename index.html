@@ -18,6 +18,7 @@
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
       rel="stylesheet"
     />
+    <script defer src="js-file.js"></script>
     <title>Frontend Mentor | Article preview component</title>
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
@@ -59,7 +60,7 @@
             >. Coded by <a href="#">Your Name Here</a>.
           </div>
         </div>
-        <div class="article__footer footer">
+        <div class="article__footer footer" id="normal">
           <img
             class="footer__avatar"
             src="./images/avatar-michelle.jpg"
@@ -68,7 +69,7 @@
           <p class="footer__text">
             <b>Michelle Appleton </b> 28 Jun 2020 Share
           </p>
-          <button>
+          <button id="normalButton">
             <img
               class="footer_avatar"
               src="./images/icon-share.svg"
@@ -76,7 +77,7 @@
             />
           </button>
         </div>
-        <div class="article__footer-active footer">
+        <div class="article__footer-active footer" id="active">
           <p class="footer__text">Share</p>
           <a href=""
             ><img
@@ -96,7 +97,7 @@
               src="./images/icon-pinterest.svg"
               alt="icon Pinterest"
           /></a>
-          <button>
+          <button id="activeButton">
             <img
               class="footer_avatar"
               src="./images/icon-share.svg"

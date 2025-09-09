@@ -210,9 +210,6 @@ h3 {
 .article__footer-active button {
   background-color: #fff;
 }
-.article__footer-active {
-  display: flex;
-}
 
 .footer {
   padding: 1.5625rem;
