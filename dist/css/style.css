@@ -176,4 +176,21 @@ h3 {
   display: none;
 }
 
+.article .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 1.875rem;
+  background-color: #fff;
+  padding: 1.875rem;
+}
+.article__title {
+  font-size: 1.625rem;
+  color: hsl(217, 19%, 35%);
+}
+.article__description {
+  font-size: 1.015625rem;
+  color: hsl(214, 17%, 51%);
+}
+
 /*# sourceMappingURL=style.css.map */

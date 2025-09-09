@@ -1,0 +1,23 @@
+@use "./functions";
+@use "./typography";
+@use "colors";
+
+.article {
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: functions.rem(30);
+    background-color: #fff;
+    padding: functions.rem(30);
+  }
+  &__title {
+    font-size: typography.$fs-700;
+    color: colors.$clr-Very-Dark-Grayish-Blue;
+  }
+
+  &__description {
+    font-size: typography.$fs-500;
+    color: colors.$clr-Desaturated-Dark-Blue;
+  }
+}
