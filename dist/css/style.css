@@ -180,12 +180,14 @@ h3 {
   display: none;
 }
 
+.article {
+  background-color: #fff;
+}
 .article .card {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   gap: 1.875rem;
-  background-color: #fff;
   padding: 1.875rem;
 }
 .article__title {
@@ -201,11 +203,21 @@ h3 {
 }
 
 .footer {
+  padding: 20px;
   justify-content: space-between;
 }
 .footer__avatar {
   border-radius: 50%;
   width: 3.125rem;
+}
+.footer__text {
+  display: flex;
+  flex-direction: column;
+  color: hsl(214, 17%, 51%);
+}
+.footer__text b {
+  font-size: 1.015625rem;
+  color: hsl(217, 19%, 35%);
 }
 
 /*# sourceMappingURL=style.css.map */

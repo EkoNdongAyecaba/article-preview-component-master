@@ -1,10 +1,23 @@
 @use "./functions";
+@use "./typography";
+@use "./colors";
 
 .footer {
+  padding: 20px;
   justify-content: space-between;
   &__avatar {
     border-radius: 50%;
     $avatar-size: 50;
     width: functions.rem($avatar-size);
+  }
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    color: colors.$clr-Desaturated-Dark-Blue;
+    b {
+      font-size: typography.$fs-500;
+      color: colors.$clr-Very-Dark-Grayish-Blue;
+    }
   }
 }
