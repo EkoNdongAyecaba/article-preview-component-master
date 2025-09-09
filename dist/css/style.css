@@ -200,4 +200,12 @@ h3 {
   display: flex;
 }
 
+.footer {
+  justify-content: space-between;
+}
+.footer__avatar {
+  border-radius: 50%;
+  width: 3.125rem;
+}
+
 /*# sourceMappingURL=style.css.map */

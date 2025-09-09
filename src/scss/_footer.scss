@@ -1,0 +1,10 @@
+@use "./functions";
+
+.footer {
+  justify-content: space-between;
+  &__avatar {
+    border-radius: 50%;
+    $avatar-size: 50;
+    width: functions.rem($avatar-size);
+  }
+}
