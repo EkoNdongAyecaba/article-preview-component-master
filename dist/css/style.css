@@ -201,14 +201,27 @@ h3 {
 .article__footer {
   display: flex;
 }
+.article__footer-active {
+  background-color: hsl(217, 19%, 35%);
+  font-size: 1.015625rem;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+.article__footer-active button {
+  background-color: #fff;
+}
+.article__footer-active {
+  display: flex;
+}
 
 .footer {
-  padding: 1.25rem;
+  padding: 1.5625rem;
   gap: 1.25rem;
 }
 .footer__avatar {
   border-radius: 50%;
   width: 3.125rem;
+  height: 3.125rem;
 }
 .footer__text {
   display: flex;

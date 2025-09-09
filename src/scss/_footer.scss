@@ -3,12 +3,13 @@
 @use "./colors";
 
 .footer {
-  padding: functions.rem(20);
+  padding: functions.rem(25);
   gap: functions.rem(20);
   &__avatar {
     border-radius: 50%;
     $avatar-size: 50;
     width: functions.rem($avatar-size);
+    height: functions.rem($avatar-size);
   }
 
   &__text {
